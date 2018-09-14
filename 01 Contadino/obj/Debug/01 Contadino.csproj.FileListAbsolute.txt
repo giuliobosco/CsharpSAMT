@@ -1,0 +1,21 @@
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\MainWindow.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\View\ContadinoUpDownView.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\View\MainView.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino_MarkupCompile.cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino_MarkupCompile.lref
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\bin\Debug\01 Contadino.exe.config
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\bin\Debug\01 Contadino.exe
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\bin\Debug\01 Contadino.pdb
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\bin\Debug\Xceed.Wpf.Toolkit.dll
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\MainWindow.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\View\ContadinoUpDownView.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\View\MainView.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino.g.resources
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\_01_Contadino.Properties.Resources.resources
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino.exe
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\01 Contadino.pdb
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\01 Contadino\obj\Debug\GeneratedInternalTypeHelper.g.cs
