@@ -1,0 +1,23 @@
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\bin\Debug\_02_Party.exe.config
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\bin\Debug\_02_Party.exe
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\bin\Debug\_02_Party.pdb
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\bin\Debug\Xceed.Wpf.Toolkit.dll
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\02 Party.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\MainWindow.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\View\CompleannoView.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\View\EventoView.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\View\MainView.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\_02_Party_MarkupCompile.cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\_02_Party_MarkupCompile.lref
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\MainWindow.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\View\CompleannoView.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\View\EventoView.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\View\MainView.baml
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\_02_Party.g.resources
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\_02_Party.Properties.Resources.resources
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\02 Party.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\02 Party.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\_02_Party.exe
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\01 MVVM\01 MVVM\02 Party\obj\Debug\_02_Party.pdb
