@@ -18,3 +18,4 @@
 \\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\cs-01-MVVM\03 Tariffa\obj\Debug\03 Tariffa.csproj.CoreCompileInputs.cache
 \\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\cs-01-MVVM\03 Tariffa\obj\Debug\03 Tariffa.exe
 \\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\cs-01-MVVM\03 Tariffa\obj\Debug\03 Tariffa.pdb
+\\vmware-host\Shared Folders\giuliobosco On My Mac\drive\aa_SAMT1819\223-cs\cs-01-MVVM\03 Tariffa\bin\Debug\Xceed.Wpf.Toolkit.dll
