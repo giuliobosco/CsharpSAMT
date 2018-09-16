@@ -42,7 +42,8 @@
         <CheckBox x:Name="cbAlcol"
                   Grid.Column="0"
                   Grid.Row="1"
-                      Content="Festa con alcol"/>
+                      Content="Festa con alcol"
+                  IsChecked="{Binding Path=Alcool}"/>
         <Image x:Name="iEvento" 
                Grid.Column="2"
                Grid.Row="1"
