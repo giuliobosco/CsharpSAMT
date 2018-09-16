@@ -18,6 +18,41 @@ namespace _03_Tariffa.ViewModel {
         public event PropertyChangedEventHandler PropertyChanged;
 
         private Tariffa model;
+
+        public double Distanza {
+            get { return model.Distanza; }
+            set {
+                if (model.Distanza == (double)value) {
+                    return;
+                }
+
+                model.Distanza = (double)value;
+
+                OnPropertyChanged("Distanza");
+                OnPropertyChanged("Totale");
+            }
+        }
+
+        public int Eta {
+            get { return model.Eta; }
+            set {
+                if (model.Eta == (int)value) {
+                    return;
+                }
+
+                model.Eta = (int)value;
+
+                OnPropertyChanged("Eta");
+                OnPropertyChanged("Totale");
+            }
+        }
+
+        public double Totale {
+            get {
+                return model.GetTotale();
+            }
+        }
+
         #endregion
 
         #region =================== costruttori ================
