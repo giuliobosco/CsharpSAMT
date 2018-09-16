@@ -62,7 +62,6 @@
                             Grid.Column="2" 
                             Grid.Row="0" 
                             VerticalAlignment="Center" 
-                            Value="0" 
                             Minimum="0"
                             Value="{Binding Path=Persone}"/>
         <TextBox x:Name="tbTotal"
