@@ -37,10 +37,10 @@
                HorizontalAlignment="Right"
                VerticalAlignment="Center"
                Content="Eta:"/>
-        <xtck:DoubleUpDown Grid.Row="1"
-                           Grid.Column="1"
-                           VerticalAlignment="Center"
-                           Text="{Binding Path=Eta}"/>
+        <xtck:IntegerUpDown Grid.Row="1"
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Text="{Binding Path=Eta}"/>
         
         <Label Grid.Row="2"
                Grid.Column="0"
