@@ -68,6 +68,7 @@
                      Grid.Column="1"
                      Grid.Row="3"
                      VerticalAlignment="Bottom"
-                     DockPanel.Dock="Bottom">CHF 0.00</TextBox>
+                     DockPanel.Dock="Bottom"
+                 Text="{Binding Path=Totale, Mode=OneWay}"/>
     </Grid>
 </UserControl>
