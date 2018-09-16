@@ -30,7 +30,7 @@
         <xtck:DoubleUpDown Grid.Row="0"
                            Grid.Column="1"
                            VerticalAlignment="Center"
-                           Text="{Binding Path=Distanza}"/>
+                           Value="{Binding Path=Distanza}"/>
 
         <Label Grid.Row="1"
                Grid.Column="0"
@@ -40,7 +40,7 @@
         <xtck:IntegerUpDown Grid.Row="1"
                             Grid.Column="1"
                             VerticalAlignment="Center"
-                            Text="{Binding Path=Eta}"/>
+                            Value="{Binding Path=Eta}"/>
         
         <Label Grid.Row="2"
                Grid.Column="0"
