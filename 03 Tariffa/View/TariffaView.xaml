@@ -7,6 +7,44 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               Content="Km:"/>
+        <TextBox Grid.Row="0"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Text="0.00"/>
+
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               Content="Eta:"/>
+        <TextBox Grid.Row="1"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Text="0.00"/>
+
+        <Label Grid.Row="2"
+               Grid.Column="0"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               Content="Totale:"/>
+        <TextBox Grid.Row="2"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Text="0.00"/>
     </Grid>
 </UserControl>
