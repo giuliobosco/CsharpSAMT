@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Contadino", "01 Contadin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Party", "02 Party\02 Party.csproj", "{EE6F9F3F-779D-4BE0-A830-B2D42D28BFEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Tariffa", "03 Tariffa\03 Tariffa.csproj", "{B42630AA-41BD-44DC-BFCB-5ABCC9385866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EE6F9F3F-779D-4BE0-A830-B2D42D28BFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE6F9F3F-779D-4BE0-A830-B2D42D28BFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE6F9F3F-779D-4BE0-A830-B2D42D28BFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
