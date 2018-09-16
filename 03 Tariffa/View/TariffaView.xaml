@@ -29,17 +29,17 @@
         <TextBox Grid.Row="0"
                  Grid.Column="1"
                  VerticalAlignment="Center"
-                 Text="{Binding Path=Distanza}"/>
+                 Text="{Binding Path=Distanza, Mode=OneWay}"/>
 
         <Label Grid.Row="1"
                Grid.Column="0"
                HorizontalAlignment="Right"
                VerticalAlignment="Center"
-               Content="{Binding Path=Eta}"/>
+               Content="Eta:"/>
         <TextBox Grid.Row="1"
                  Grid.Column="1"
                  VerticalAlignment="Center"
-                 Text="{Binding Path=Totale}"/>
+                 Text="{Binding Path=Eta, Mode=OneWay}"/>
 
         <Label Grid.Row="2"
                Grid.Column="0"
@@ -49,6 +49,6 @@
         <TextBox Grid.Row="2"
                  Grid.Column="1"
                  VerticalAlignment="Center"
-                 Text="0.00"/>
+                 Text="{Binding Path=Totale, Mode=OneWay}"/>
     </Grid>
 </UserControl>
