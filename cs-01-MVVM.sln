@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Party", "02 Party\02 Par
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Tariffa", "03 Tariffa\03 Tariffa.csproj", "{B42630AA-41BD-44DC-BFCB-5ABCC9385866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 BASE MVVM", "00 BASE MVVM\00 BASE MVVM.csproj", "{BB73917D-4300-4E99-9428-5F05D6FD2893}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B42630AA-41BD-44DC-BFCB-5ABCC9385866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB73917D-4300-4E99-9428-5F05D6FD2893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB73917D-4300-4E99-9428-5F05D6FD2893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB73917D-4300-4E99-9428-5F05D6FD2893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB73917D-4300-4E99-9428-5F05D6FD2893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
