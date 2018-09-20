@@ -56,7 +56,7 @@ namespace _03_Tariffa.Model {
 
         #region =================== metodi generali ============
         public double GetTotale() {
-            if (this.Eta <= MAX_MINORENNI) {
+            if (this.Eta < MAX_MINORENNI) {
                 return this.Distanza * COSTO_MINORENNI;
             } else if (this.Eta > MIN_AVS) {
                 return this.Distanza * COSTO_AVS;
