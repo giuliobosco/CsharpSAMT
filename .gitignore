@@ -4,3 +4,9 @@
 */bin/
 */obj/
 */.vs/
+.vs/cs-01-MVVM/v15/.suo
+*.ide
+*.sqlite
+*.sqlite-journal
+*.csproj
+*.sqlite
