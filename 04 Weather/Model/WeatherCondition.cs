@@ -20,11 +20,11 @@ namespace _04_Weather.Model {
         /**
          * Group of weather parameters (Rain, Snow, Extreme etc.).
          */
-        public String Main { get; set; }
+        public string Main { get; set; }
         /**
          * Weather condition within the group.
          */
-        public String Description { get; set; }
+        public string Description { get; set; }
         /**
          * Weather icon id.
          */
