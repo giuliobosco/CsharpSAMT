@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\04 Weather",
+    "\\04 Weather\\Services"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\04 Weather\\App.config",
   "PreviewInSolutionExplorer": false
 }
