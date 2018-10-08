@@ -140,8 +140,7 @@ namespace _04_Weather.Services {
          * @param stringElement String XML data.
          * @return The OpenWeatherMap object.
          */
-        private OpenWeatherMap getOwmFromXml(string stringElement) {
-            var e = XElement.Load(new StringReader(stringElement));
+        private OpenWeatherMap getOwmFromXml(XElement e) {
 
             OpenWeatherMap owm = new OpenWeatherMap();
 
@@ -160,7 +159,7 @@ namespace _04_Weather.Services {
             // visibility
             owm.Visibility = double.Parse(e.Element("visibility").Attribute("value").Value);
             // precipitation
-            owm.Precipitation = double.Parse(e.Element("precipitation").Attribute("value").Value);
+            owm.Precipitation = e.Element("precipitation").Attribute("mode").Value;
             // Weather
             owm.Weather = this.getWeather(e.Element("weather"));
             // last update
@@ -176,8 +175,10 @@ namespace _04_Weather.Services {
                 try {
                     string path = ConstructUrl(city);
                     var result = client.GetStringAsync(path).Result;
+                    
+                    var e = XElement.Load(new StringReader(result));
 
-                    OpenWeatherMap owm = this.getOwmFromXml(result);
+                    OpenWeatherMap owm = this.getOwmFromXml(e);
                     return owm;
                 } catch (Exception) {
 
