@@ -36,6 +36,13 @@ namespace _04_Weather.Model {
         #endregion
 
         #region =================== constructors ===============
+        public OpenWeatherMap() {
+            this.City = new City();
+            this.Temperature = new Temperature();
+            this.Wind = new Wind();
+            this.Clouds = new Clouds();
+            this.Weather = new Weather.Weather();
+        }
         #endregion
 
         #region =================== help methods ===============
