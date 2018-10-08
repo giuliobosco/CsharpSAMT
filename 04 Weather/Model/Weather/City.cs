@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 
 namespace _04_Weather.Model.Weather {
-    class City {
+    public class City {
         #region =================== costants ===================
         #endregion
 
