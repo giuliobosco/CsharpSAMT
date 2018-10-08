@@ -15,9 +15,9 @@ namespace _04_Weather.Model.Weather {
         #region =================== properties & members =======
         public int Id { get; set; }
 
-        private int description;
+        private string description;
 
-        public int Description {
+        public string Description {
             get { return description; }
             set { description = value; }
         }
