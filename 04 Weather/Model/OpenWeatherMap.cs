@@ -28,7 +28,7 @@ namespace _04_Weather.Model {
 
         public double Visibility { get; set; }
 
-        public double Precipitation { get; set; }
+        public string Precipitation { get; set; }
 
         public Weather.Weather Weather { get; set; }
 
