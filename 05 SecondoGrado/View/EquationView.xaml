@@ -4,8 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:_05_SecondoGrado.View"
+             xmlns:viewmodel="clr-namespace:_05_SecondoGrado.ViewModel"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <viewmodel:EquationViewModel/>
+    </UserControl.DataContext>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -37,7 +41,8 @@
                Content="A:"/>
         <TextBox Grid.Row="1"
                  Grid.Column="1"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 Text="{Binding Path=A}"/>
 
         <Label Grid.Row="2"
                Grid.Column="0"
@@ -46,7 +51,8 @@
                Content="B:"/>
         <TextBox Grid.Row="2"
                  Grid.Column="1"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 Text="{Binding Path=B}"/>
 
         <Label Grid.Row="3"
                Grid.Column="0"
@@ -55,7 +61,8 @@
                Content="C:"/>
         <TextBox Grid.Row="3"
                  Grid.Column="1"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 Text="{Binding Path=C}"/>
 
         <Label Grid.Row="4"
                Grid.Column="0"
@@ -64,7 +71,8 @@
                Content="Root 1:"/>
         <TextBox Grid.Row="4"
                  Grid.Column="1"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 Text="{Binding Path=Root1, Mode=OneWay}"/>
 
         <Label Grid.Row="5"
                Grid.Column="0"
@@ -73,7 +81,8 @@
                Content="Root 2:"/>
         <TextBox Grid.Row="5"
                  Grid.Column="1"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 Text="{Binding Path=Root2, Mode=OneWay}"/>
 
         <Label Grid.Row="6"
                Grid.Column="0"
@@ -82,12 +91,14 @@
                Content="Vertex:"/>
         <TextBox Grid.Row="6"
                  Grid.Column="1"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center"
+                 Text="{Binding Path=Vertex, Mode=OneWay}"/>
         <Button Grid.Row="6"
                 Grid.Column="2"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
-                Content="Draw"/>
+                Content="Draw"
+                Command="{Binding Path=DrawCommand}"/>
         
     </Grid>
 </UserControl>
