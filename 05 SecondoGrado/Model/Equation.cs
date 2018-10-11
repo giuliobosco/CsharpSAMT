@@ -68,8 +68,8 @@ namespace _05_SecondoGrado.Model {
                 Root1 = double.NaN;
                 Root2 = double.NaN;
             } else {
-                Root1 = (-B + Math.Sqrt(Delta)) / 2 * A;
-                Root2 = (-B - Math.Sqrt(Delta)) / 2 * A;
+                Root1 = (-B + Math.Sqrt(Delta)) / (2 * A);
+                Root2 = (-B - Math.Sqrt(Delta)) / (2 * A);
             }
         }
         #endregion
