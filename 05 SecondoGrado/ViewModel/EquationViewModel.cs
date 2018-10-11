@@ -19,17 +19,38 @@ namespace _05_SecondoGrado.ViewModel {
 
         public double A {
             get { return model.A; }
-            set { model.A = value; }
+            set {
+                if (value == model.A) {
+                    return;
+                }
+
+                model.A = value;
+                OnPropertyChanged(() => A);
+            }
         }
 
         public double B {
             get { return model.B; }
-            set { model.B = value; }
+            set {
+                if (value == model.B) {
+                    return;
+                }
+
+                model.B = value;
+                OnPropertyChanged(() => B);
+            }
         }
 
         public double C {
             get { return model.C; }
-            set { model.C = value; }
+            set {
+                if (value == model.C) {
+                    return;
+                }
+
+                model.C = value;
+                OnPropertyChanged(() => C);
+            }
         }
 
         public double Root1 {
