@@ -26,6 +26,7 @@ namespace _05_SecondoGrado.ViewModel {
 
                 model.A = value;
                 OnPropertyChanged(() => A);
+                UpDateProperties();
             }
         }
 
@@ -38,6 +39,7 @@ namespace _05_SecondoGrado.ViewModel {
 
                 model.B = value;
                 OnPropertyChanged(() => B);
+                UpDateProperties();
             }
         }
 
@@ -50,6 +52,7 @@ namespace _05_SecondoGrado.ViewModel {
 
                 model.C = value;
                 OnPropertyChanged(() => C);
+                UpDateProperties();
             }
         }
 
@@ -83,6 +86,12 @@ namespace _05_SecondoGrado.ViewModel {
         #region =================== help methods ===============
         private void OnDraw(object obj) {
             throw new NotImplementedException();
+        }
+
+        private void UpDateProperties() {
+            OnPropertyChanged(() => Root1);
+            OnPropertyChanged(() => Root2);
+            OnPropertyChanged(() => Vertex);
         }
         #endregion
 
