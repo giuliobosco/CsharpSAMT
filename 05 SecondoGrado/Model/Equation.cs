@@ -17,21 +17,30 @@ namespace _05_SecondoGrado.Model {
 
         public double A {
             get { return a; }
-            set { a = value; }
+            set {
+                a = value;
+                Roots();
+            }
         }
 
         private double b;
 
         public double B {
             get { return b; }
-            set { b = value; }
+            set {
+                b = value;
+                Roots();
+            }
         }
 
         private double c;
 
         public double C {
             get { return c; }
-            set { c = value; }
+            set {
+                c = value;
+                Roots();
+            }
         }
 
         public double Delta { get; private set; }
