@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="_06_Numeri.View.Numero"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_06_Numeri.View"
+             xmlns:helper="clr-namespace:_06_Numeri.Helper"
+             xmlns:viewmodel="clr-namespace:_06_Numeri.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <helper:TextToColorConverter x:Key="t2cConverter"/>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <viewmodel:NumeroViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <TextBox HorizontalAlignment="Center"
+                 VerticalAlignment="Center"
+                 Width="200" FontSize="72"
+                 Foreground="{Binding Path=Model, Converter={StaticResource ResourceKey=t2cConverter}}"
+                 Text="{Binding Path=Model, UpdateSourceTrigger=PropertyChanged}"/>
+    </Grid>
+</UserControl>
