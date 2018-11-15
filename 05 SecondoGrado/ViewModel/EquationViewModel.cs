@@ -33,8 +33,7 @@ namespace _05_SecondoGrado.ViewModel {
 
         public double A {
             get { return model.A; }
-            set
-            {
+            set {
                 if (value == model.A) {
                     return;
                 }
@@ -47,8 +46,7 @@ namespace _05_SecondoGrado.ViewModel {
 
         public double B {
             get { return model.B; }
-            set
-            {
+            set {
                 if (value == model.B) {
                     return;
                 }
@@ -61,8 +59,7 @@ namespace _05_SecondoGrado.ViewModel {
 
         public double C {
             get { return model.C; }
-            set
-            {
+            set {
                 if (value == model.C) {
                     return;
                 }
@@ -117,6 +114,7 @@ namespace _05_SecondoGrado.ViewModel {
             Point2D coordinata = new Point2D(x, y);
 
             Points.Add(coordinata);
+            x += STEP;
         }
 
         #endregion
