@@ -12,23 +12,29 @@ using System.Windows.Threading;
 namespace _05_SecondoGrado.ViewModel {
     public class EquationViewModel : BindableBase {
         #region =================== costants ===================
+
         public const double XMIN = -4;
         public const double XMAX = 4;
         public const double YMIN = -20;
         public const double YMAX = 20;
         public const double STEP = 0.5;
+
         #endregion
 
         #region =================== static Members =============
+
         #endregion
 
         #region =================== properties & members =======
+
         private Equation model;
         private DispatcherTimer timer;
         private double x;
+
         public double A {
             get { return model.A; }
-            set {
+            set
+            {
                 if (value == model.A) {
                     return;
                 }
@@ -41,7 +47,8 @@ namespace _05_SecondoGrado.ViewModel {
 
         public double B {
             get { return model.B; }
-            set {
+            set
+            {
                 if (value == model.B) {
                     return;
                 }
@@ -54,7 +61,8 @@ namespace _05_SecondoGrado.ViewModel {
 
         public double C {
             get { return model.C; }
-            set {
+            set
+            {
                 if (value == model.C) {
                     return;
                 }
@@ -74,7 +82,7 @@ namespace _05_SecondoGrado.ViewModel {
         }
 
         public Point2D Vertex {
-            get { return model.Vertex();  }
+            get { return model.Vertex(); }
         }
 
         public ObservableCollection<Point2D> Points { get; private set; }
@@ -84,6 +92,7 @@ namespace _05_SecondoGrado.ViewModel {
         #endregion
 
         #region =================== constructors ===============
+
         public EquationViewModel() {
             this.model = new Equation();
 
@@ -98,24 +107,23 @@ namespace _05_SecondoGrado.ViewModel {
             DrawCommand = new DelegateCommand(OnDraw);
         }
 
-        private void Timer_Tick(object sender, EventArgs e)
-        {
-            if (x > XMAX)
-            {
+        private void Timer_Tick(object sender, EventArgs e) {
+            if (x > XMAX) {
                 timer.Stop();
             }
 
             double y = model.Y(x);
 
             Point2D coordinata = new Point2D(x, y);
-            
+
             Points.Add(coordinata);
         }
+
         #endregion
 
         #region =================== help methods ===============
-        private void OnDraw(object obj)
-        {
+
+        private void OnDraw(object obj) {
             x = XMIN;
             timer.Start();
         }
@@ -125,9 +133,11 @@ namespace _05_SecondoGrado.ViewModel {
             OnPropertyChanged(() => Root2);
             OnPropertyChanged(() => Vertex);
         }
+
         #endregion
 
         #region =================== general methods ============
+
         #endregion
     }
 }
