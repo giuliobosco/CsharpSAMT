@@ -132,6 +132,17 @@ namespace _05_SecondoGrado.ViewModel {
             OnPropertyChanged(() => Vertex);
         }
 
+        private Point2D Normalize(Point2D point) {
+            double canvasWidth = 200;
+            double canvasHeight = 200;
+            Point2D result = new Point2D() {
+                X = canvasWidth * (point.X - XMIN) / (XMAX - XMIN),
+                Y = canvasHeight - canvasHeight * (point.Y - YMIN) / (YMAX - YMIN)
+            };
+
+            return result;
+        }
+
         #endregion
 
         #region =================== general methods ============
