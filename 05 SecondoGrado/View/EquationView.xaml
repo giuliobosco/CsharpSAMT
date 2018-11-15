@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:_05_SecondoGrado.View"
              xmlns:viewmodel="clr-namespace:_05_SecondoGrado.ViewModel"
+             xmlns:model="clr-namespace:_05_SecondoGrado.Model"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.DataContext>
@@ -101,6 +102,31 @@
                 Command="{Binding Path=DrawCommand}"/>
         
 
-        <ListBox Grid.Column="2" Grid.Row="1" Grid.RowSpan="5" ItemsSource="{Binding Path=Points}"/>
+        <!--<ListBox Grid.Column="2" Grid.Row="1" Grid.RowSpan="5" ItemsSource="{Binding Path=Points}"/>-->
+
+        <ItemsControl Grid.Column="2" 
+                      Grid.Row="1" 
+                      Grid.RowSpan="5" 
+                      ItemsSource="{Binding Path=Points}">
+
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.Resources>
+                <DataTemplate DataType="{x:Type model:Point2D}">
+                    <Ellipse Width="3" Height="3" Stroke="Blue"/>
+                </DataTemplate>
+            </ItemsControl.Resources>
+
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="ContentPresenter">
+                    <Setter Property="Canvas.Left" Value="{Binding Path=X}"/>
+                    <Setter Property="Canvas.Top" Value="{Binding Path=Y}"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+        </ItemsControl>
     </Grid>
 </UserControl>

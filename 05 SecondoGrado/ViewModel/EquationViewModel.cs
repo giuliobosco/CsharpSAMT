@@ -123,6 +123,7 @@ namespace _05_SecondoGrado.ViewModel {
         #region =================== help methods ===============
 
         private void OnDraw(object obj) {
+            Points.Clear();
             x = XMIN;
             timer.Start();
         }
@@ -132,7 +133,7 @@ namespace _05_SecondoGrado.ViewModel {
             OnPropertyChanged(() => Root2);
             OnPropertyChanged(() => Vertex);
         }
-
+        
         private Point2D Normalize(Point2D point) {
             double canvasWidth = 200;
             double canvasHeight = 200;
