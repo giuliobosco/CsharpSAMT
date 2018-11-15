@@ -112,6 +112,7 @@ namespace _05_SecondoGrado.ViewModel {
             double y = model.Y(x);
 
             Point2D coordinata = new Point2D(x, y);
+            Point2D normalized = Normalize(coordinata);
 
             Points.Add(coordinata);
             x += STEP;
