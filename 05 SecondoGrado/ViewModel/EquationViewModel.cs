@@ -133,7 +133,12 @@ namespace _05_SecondoGrado.ViewModel {
             OnPropertyChanged(() => Root2);
             OnPropertyChanged(() => Vertex);
         }
-        
+
+        /// <summary>
+        /// Transform a point of the function for the graphic rappresentation.
+        /// </summary>
+        /// <param name="point">Point calculated in the function.</param>
+        /// <returns>Point to rappresent in the canvas.</returns>
         private Point2D Normalize(Point2D point) {
             double canvasWidth = 200;
             double canvasHeight = 200;
