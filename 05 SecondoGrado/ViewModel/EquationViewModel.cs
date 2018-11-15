@@ -2,13 +2,21 @@
 using MVVM;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Threading;
 
 namespace _05_SecondoGrado.ViewModel {
     public class EquationViewModel : BindableBase {
         #region =================== costants ===================
+        public const double XMIN = -4;
+        public const double XMAX = 4;
+        public const double YMIN = -20;
+        public const double YMAX = 20;
+        public const double STEP = 0.5;
         #endregion
 
         #region =================== static Members =============
@@ -16,7 +24,8 @@ namespace _05_SecondoGrado.ViewModel {
 
         #region =================== properties & members =======
         private Equation model;
-
+        private DispatcherTimer timer;
+        private double x;
         public double A {
             get { return model.A; }
             set {
@@ -68,6 +77,8 @@ namespace _05_SecondoGrado.ViewModel {
             get { return model.Vertex();  }
         }
 
+        public ObservableCollection<Point2D> Points { get; private set; }
+
         public IDelegateCommand DrawCommand { get; private set; }
 
         #endregion
@@ -79,13 +90,34 @@ namespace _05_SecondoGrado.ViewModel {
             this.A = 5;
             this.B = 3;
 
+            Points = new ObservableCollection<Point2D>();
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(20);
+            timer.Tick += Timer_Tick;
+
             DrawCommand = new DelegateCommand(OnDraw);
+        }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            if (x > XMAX)
+            {
+                timer.Stop();
+            }
+
+            double y = model.Y(x);
+
+            Point2D coordinata = new Point2D(x, y);
+            
+            Points.Add(coordinata);
         }
         #endregion
 
         #region =================== help methods ===============
-        private void OnDraw(object obj) {
-            throw new NotImplementedException();
+        private void OnDraw(object obj)
+        {
+            x = XMIN;
+            timer.Start();
         }
 
         private void UpDateProperties() {
