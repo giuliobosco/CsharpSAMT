@@ -10,13 +10,53 @@
     <UserControl.DataContext>
         <viewmodel:CoffeeListViewModel></viewmodel:CoffeeListViewModel>
     </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="CoffeeTemplate">
+            <Grid ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="300"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="2"
+                       Content="{Binding Path=Name}"/>
+
+                <StackPanel Grid.Row="1"
+                            Grid.Column="1"
+                            Orientation="Horizontal">
+                    <Label Content="Stock:"/>
+                    <Label Content="{Binding Path=Stock}"/>
+                </StackPanel>
+
+                <Label Grid.Row="1"
+                       Grid.Column="2"
+                       Content="{Binding Path=Price}"/>
+
+                <Button Grid.Row="2" 
+                        Grid.Column="2"
+                        Content="Details"/>
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>  
 
-        <ListBox Grid.Row="0" ItemsSource="{Binding Path=Coffees}"/>
+        <ListBox Grid.Row="0" 
+                 ItemsSource="{Binding Path=Coffees}"
+                 ItemTemplate="{StaticResource CoffeeTemplate}"/>
 
         <DataGrid Grid.Row="1" ItemsSource="{Binding Path=Coffees}"/>
     </Grid>
