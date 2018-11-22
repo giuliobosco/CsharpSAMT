@@ -46,6 +46,16 @@ namespace _07_Password.Model {
 
         #region =================== help methods ===============
 
+        private string bytesToString(byte[] bytes) {
+            string ret = "";
+
+            for (int i = 0; i < bytes.Length; i++) {
+                ret += char.ToString((char) bytes[i]);
+            }
+
+            return ret;
+        }
+
         #endregion
 
         #region =================== general methods ============
@@ -59,7 +69,7 @@ namespace _07_Password.Model {
             byte[] hashedBytes = hasher.ComputeHash(textWithSaltBytes);
 
             hasher.Clear();
-            Hash = Convert.ToString(hashedBytes);
+            Hash = bytesToString(hashedBytes);
         }
 
         #endregion
