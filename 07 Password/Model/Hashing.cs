@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using _07_Password.Helper;
 
 namespace _07_Password.Model {
     public class Hashing {
@@ -46,16 +47,6 @@ namespace _07_Password.Model {
 
         #region =================== help methods ===============
 
-        private string bytesToString(byte[] bytes) {
-            string ret = "";
-
-            for (int i = 0; i < bytes.Length; i++) {
-                ret += char.ToString((char) bytes[i]);
-            }
-
-            return ret;
-        }
-
         #endregion
 
         #region =================== general methods ============
@@ -69,7 +60,7 @@ namespace _07_Password.Model {
             byte[] hashedBytes = hasher.ComputeHash(textWithSaltBytes);
 
             hasher.Clear();
-            Hash = bytesToString(hashedBytes);
+            Hash = (string) new BytesToStringConverter().Convert(hashedBytes, null, null, null);
         }
 
         #endregion
