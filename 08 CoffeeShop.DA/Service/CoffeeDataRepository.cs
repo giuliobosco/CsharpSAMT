@@ -7,7 +7,7 @@ using _08_CoffeeShop.DA.Model;
 
 namespace _08_CoffeeShop.DA.Service {
     public class CoffeeDataRepository : IDataRepository<Coffee> {
-        private DataContext ctx;
+        private static DataContext ctx;
 
         public CoffeeDataRepository() {
             ctx = new DataContext();
