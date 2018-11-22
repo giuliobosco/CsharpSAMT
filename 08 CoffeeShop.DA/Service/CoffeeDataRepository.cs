@@ -14,7 +14,8 @@ namespace _08_CoffeeShop.DA.Service {
         }
 
         public Coffee Get(int id) {
-            throw new NotImplementedException();
+            return ctx.Coffees.FirstOrDefault(c => c.CoffeeId == id);
+            // return ctx.Coffees.Where(c => c.CoffeeId == id).FirstOrDefault();
         }
 
         public IEnumerable<Coffee> Get() {
@@ -22,15 +23,21 @@ namespace _08_CoffeeShop.DA.Service {
         }
 
         public void Delete(Coffee entity) {
-            throw new NotImplementedException();
+            ctx.Coffees.Remove(entity);
         }
 
         public Coffee Insert(Coffee entity) {
-            throw new NotImplementedException();
+            int newId = ctx.Coffees.Max(c => c.CoffeeId) + 1;
+            entity.CoffeeId = newId;
+            ctx.Coffees.Add(entity);
+
+            return entity;
         }
 
         public void Update(Coffee entity) {
-            throw new NotImplementedException();
+            Coffee c = Get(entity.CoffeeId);
+
+            c = entity;
         }
     }
 }
