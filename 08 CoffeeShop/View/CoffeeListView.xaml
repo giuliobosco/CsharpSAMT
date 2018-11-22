@@ -16,6 +16,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>  
 
+        <ListBox Grid.Row="0" ItemsSource="{Binding Path=Coffees}"/>
+
         <DataGrid Grid.Row="1" ItemsSource="{Binding Path=Coffees}"></DataGrid>
     </Grid>
 </UserControl>
