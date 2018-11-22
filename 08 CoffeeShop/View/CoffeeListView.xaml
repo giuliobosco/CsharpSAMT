@@ -4,9 +4,18 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:_08_CoffeeShop.View"
+             xmlns:viewmodel="clr-namespace:_08_CoffeeShop.ViewModel"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <viewmodel:CoffeeListViewModel></viewmodel:CoffeeListViewModel>
+    </UserControl.DataContext>
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>  
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Path=Coffees}"></DataGrid>
     </Grid>
 </UserControl>
