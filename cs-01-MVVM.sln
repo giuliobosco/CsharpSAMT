@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Password", "07 Password\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 RSI", "09 RSI\09 RSI.csproj", "{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 RSI.DA", "09 RSI.DA\09 RSI.DA.csproj", "{DBE20066-F533-45D8-8091-2EF9F270F779}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE20066-F533-45D8-8091-2EF9F270F779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE20066-F533-45D8-8091-2EF9F270F779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE20066-F533-45D8-8091-2EF9F270F779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE20066-F533-45D8-8091-2EF9F270F779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
