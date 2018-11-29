@@ -10,6 +10,15 @@
     <UserControl.DataContext>
         <viewmodel:MainViewModel></viewmodel:MainViewModel>
     </UserControl.DataContext>
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type viewmodel:CoffeeListViewModel}">
+            <local:CoffeeListView></local:CoffeeListView>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type viewmodel:AboutViewModel}">
+            <local:AboutView></local:AboutView>
+        </DataTemplate>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
