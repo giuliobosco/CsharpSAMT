@@ -33,9 +33,11 @@
             </Grid.ColumnDefinitions>
 
             <Button Grid.Column="0"
-                    Content="Lista caffè"/>
+                    Content="Lista caffè"
+                    Command="{Binding Path=CoffeeListCommand}"/>
             <Button Grid.Column="2"
-                    Content="About"/>
+                    Content="About"
+                    Command="{Binding Path=AboutCommand}"/>
         </Grid>
 
         <ContentControl Grid.Row="1"
