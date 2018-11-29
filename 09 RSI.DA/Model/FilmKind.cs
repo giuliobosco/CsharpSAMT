@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _09_RSI.Model {
-    enum FilmKind {
+    public enum FilmKind {
         Documentario,
         Informazione,
         Varietà,
