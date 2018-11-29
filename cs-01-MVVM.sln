@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 CoffeeShop.DA", "08 Coff
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Password", "07 Password\07 Password.csproj", "{023F9F7E-976F-4B71-A53D-0F7E98804769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 RSI", "09 RSI\09 RSI.csproj", "{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{023F9F7E-976F-4B71-A53D-0F7E98804769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{023F9F7E-976F-4B71-A53D-0F7E98804769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{023F9F7E-976F-4B71-A53D-0F7E98804769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB19E46-94AF-4C0A-97A0-AF2940D1EC63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
