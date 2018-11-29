@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\04 Weather",
-    "\\04 Weather\\Services"
+    "\\04 Weather\\Services",
+    "\\07 Password",
+    "\\07 Password\\View"
   ],
-  "SelectedNode": "\\04 Weather\\App.config",
+  "SelectedNode": "\\07 Password\\View\\MainView.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
