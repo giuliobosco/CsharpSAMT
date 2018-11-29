@@ -17,7 +17,11 @@ namespace _08_CoffeeShop.ViewModel {
 
         private CoffeeListViewModel clvm;
 
+        public IDelegateCommand CoffeeListCommand { get; private set; }
+
         private AboutViewModel avm;
+
+        public IDelegateCommand AboutCommand { get; private set; }
 
         private BindableBase currentViewModel;
 
@@ -31,6 +35,8 @@ namespace _08_CoffeeShop.ViewModel {
         #region =================== constructors ===============
 
         public MainViewModel() {
+            RegisterCommands();
+
             clvm = new CoffeeListViewModel();
             avm = new AboutViewModel();
 
@@ -40,6 +46,27 @@ namespace _08_CoffeeShop.ViewModel {
         #endregion
 
         #region =================== help methods ===============
+
+        private void OnCoffeeList(object obj) {
+            CurrentViewModel = clvm;
+        }
+
+        private bool CanCoffeeList(object arg) {
+            return true;
+        }
+
+        private void OnAbout(object obj) {
+            CurrentViewModel = avm;
+        }
+
+        private bool CanAbout(object arg) {
+            return true;
+        }
+
+        private void RegisterCommands() {
+            CoffeeListCommand = new DelegateCommand(OnCoffeeList, CanCoffeeList);
+            AboutCommand = new DelegateCommand(OnAbout, CanAbout);
+        }
 
         #endregion
 
