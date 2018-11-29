@@ -17,6 +17,8 @@ namespace _08_CoffeeShop.ViewModel {
 
         private CoffeeListViewModel clvm;
 
+        private AboutViewModel avm;
+
         private BindableBase currentViewModel;
 
         public BindableBase CurrentViewModel {
@@ -30,6 +32,9 @@ namespace _08_CoffeeShop.ViewModel {
 
         public MainViewModel() {
             clvm = new CoffeeListViewModel();
+            avm = new AboutViewModel();
+
+            CurrentViewModel = clvm;
         }
 
         #endregion
