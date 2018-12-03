@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\04 Weather\\Services",
     "\\07 Password",
     "\\07 Password\\View"
   ],
-  "SelectedNode": "\\07 Password\\View\\MainView.xaml.cs",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
