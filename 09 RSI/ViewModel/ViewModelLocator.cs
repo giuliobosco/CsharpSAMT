@@ -17,11 +17,16 @@ namespace _09_RSI.ViewModel {
             get { return ServiceLocator.Current.GetInstance<AboutViewModel>(); }
         }
 
+        public static FilmListViewModel FilmList {
+            get { return ServiceLocator.Current.GetInstance<FilmListViewModel>(); }
+        }
+
         public ViewModelLocator() {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
             SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<AboutViewModel>();
+            SimpleIoc.Default.Register<FilmListViewModel>();
         }
     }
 }
