@@ -24,7 +24,7 @@ namespace _09_RSI.ViewModel {
             }
         }
         public IDelegateCommand AboutCommand { get; private set; }
-        public IDelegateCommand FilmCommand { get; private set; }
+        public IDelegateCommand FilmListCommand { get; private set; }
         public IDelegateCommand ShutdownCommand { get; private set; }
         #endregion
 
@@ -40,7 +40,7 @@ namespace _09_RSI.ViewModel {
         #region =================== metodi aiuto ===============
         private void RegisterCommands() {
             AboutCommand = new DelegateCommand(OnAbout, CanAbout);
-            FilmCommand = new DelegateCommand(OnFilm, CanFilm);
+            FilmListCommand = new DelegateCommand(OnFilmList, CanFilmList);
             ShutdownCommand = new DelegateCommand(OnShutdown);
         }
 
@@ -56,11 +56,11 @@ namespace _09_RSI.ViewModel {
             CurrentViewModel = ViewModelLocator.About;
         }
 
-        private bool CanFilm(object obj) {
+        private bool CanFilmList(object obj) {
             return true;
         }
 
-        private void OnFilm(object obj) {
+        private void OnFilmList(object obj) {
             CurrentViewModel = ViewModelLocator.FilmList;
         }
 
