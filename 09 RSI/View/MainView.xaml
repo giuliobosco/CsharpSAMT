@@ -12,6 +12,9 @@
         <DataTemplate DataType="{x:Type viewmodel:AboutViewModel}">
             <local:AboutView></local:AboutView>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodel:FilmListViewModel}">
+            <local:FilmListView></local:FilmListView>
+        </DataTemplate>
     </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -24,6 +27,10 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" 
+                    Grid.Column="0"
+                    Content="Film"
+                    Command="{Binding Path=FilmCommand}"></Button>
             <Button Grid.Column="2" Grid.Row="0" 
                     Content="Info"
                     Command="{Binding Path=AboutCommand}"></Button>
