@@ -124,9 +124,9 @@
     <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\08 CoffeeShop.DA\08 CoffeeShop.DA.csproj">
+    <ProjectReference Include="..\08 CoffeeShop.DA\08-CoffeeShop.DA.csproj">
       <Project>{51cf50e7-6414-451b-ba77-1be41a0e6192}</Project>
-      <Name>08 CoffeeShop.DA</Name>
+      <Name>08-CoffeeShop.DA</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
