@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:_08_CoffeeShop.View"
              xmlns:viewmodel="clr-namespace:_08_CoffeeShop.ViewModel"
+             xmlns:helper="clr-namespace:_08_CoffeeShop.Helper"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.DataContext>
@@ -12,6 +13,7 @@
     </UserControl.DataContext>
 
     <UserControl.Resources>
+        <helper:CoffeeToImageConverter x:Key="CoffeeToImageConverter"></helper:CoffeeToImageConverter>
         <DataTemplate x:Key="CoffeeTemplate">
             <Grid ShowGridLines="True">
                 <Grid.RowDefinitions>
@@ -24,6 +26,12 @@
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="300"/>
                 </Grid.ColumnDefinitions>
+
+                <Image Grid.Row="0"
+                       Grid.RowSpan="3"
+                       Grid.Column="0"
+                       Source="{Binding Path=CoffeeId, Converter={StaticResource CoffeeToImageConverter}}">
+                </Image>
 
                 <Label Grid.Row="0"
                        Grid.Column="1"

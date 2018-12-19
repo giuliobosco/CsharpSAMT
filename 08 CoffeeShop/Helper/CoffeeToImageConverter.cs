@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Media.Imaging;
+using _08_CoffeeShop.DA.Model;
 
 namespace _08_CoffeeShop.Helper {
     public class CoffeeToImageConverter : IValueConverter {

@@ -47,6 +47,5 @@
     <Compile Include="Service\CoffeeDataRepository.cs" />
     <Compile Include="Service\IDataRepository.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
