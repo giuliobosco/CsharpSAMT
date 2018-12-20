@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-RSI.WPF", "09 RSI\09-RSI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-RSI.DA", "09 RSI.DA\09-RSI.DA.csproj", "{DBE20066-F533-45D8-8091-2EF9F270F779}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101 Mercatino", "101 Mercatino\101 Mercatino.csproj", "{2FC0B722-DE30-4C71-9320-64B37C44011A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,14 @@ Global
 		{DBE20066-F533-45D8-8091-2EF9F270F779}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBE20066-F533-45D8-8091-2EF9F270F779}.Release|x86.ActiveCfg = Release|Any CPU
 		{DBE20066-F533-45D8-8091-2EF9F270F779}.Release|x86.Build.0 = Release|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Debug|x86.Build.0 = Debug|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Release|x86.ActiveCfg = Release|Any CPU
+		{2FC0B722-DE30-4C71-9320-64B37C44011A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
