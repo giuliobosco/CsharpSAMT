@@ -1,0 +1,42 @@
+﻿@model _101_Mercatino.Models.Mercatino
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Mercatino</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Luogo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Luogo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazione)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazione)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Inizio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Inizio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

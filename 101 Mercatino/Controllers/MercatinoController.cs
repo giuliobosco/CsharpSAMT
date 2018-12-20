@@ -17,5 +17,9 @@ namespace _101_Mercatino.Controllers
             return View(dati);
         }
 
+        public ActionResult Details(int id) {
+            var dati = ctx.Mercatini.FirstOrDefault(m => m.Id == id);
+            return View(dati);
+        }
     }
 }
