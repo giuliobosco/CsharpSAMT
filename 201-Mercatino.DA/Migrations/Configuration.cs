@@ -31,12 +31,14 @@ namespace _201_Mercatino.Migrations
             //    );
             //
 
+            /*
             context.Mercatini.AddOrUpdate(
                 m => m.Luogo, 
                 new Mercatino() { Luogo = "Strasburgo", Nazione = "Francia" },
                 new Mercatino() { Luogo = "Berlino", Nazione = "Germania" },
                 new Mercatino() { Luogo = "Milano", Nazione = "Italia" }
             );
+            */
 
             context.Nazioni.AddOrUpdate(
                 m => m.Nome,
