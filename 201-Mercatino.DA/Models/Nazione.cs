@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _101_Mercatino.Models;
 
 namespace _201_Mercatino.Models {
     [Table("Nazioni")]
@@ -13,5 +14,7 @@ namespace _201_Mercatino.Models {
         public int Id { get; set; }
 
         public string Nome { get; set; }
+
+        public virtual ICollection<Mercatino> Mercatini { get; set; }
     }
 }
