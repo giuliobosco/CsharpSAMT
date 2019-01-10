@@ -1,3 +1,5 @@
+using _101_Mercatino.Models;
+
 namespace _201_Mercatino.Migrations
 {
     using System;
@@ -27,6 +29,13 @@ namespace _201_Mercatino.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+
+            context.Mercatini.AddOrUpdate(
+                m => m.Luogo, 
+                new Mercatino() { Luogo = "Strasburgo", Nazione = "Francia" },
+                new Mercatino() { Luogo = "Berlino", Nazione = "Germania" },
+                new Mercatino() { Luogo = "Milano", Nazione = "Italia" }
+            );
         }
     }
 }
