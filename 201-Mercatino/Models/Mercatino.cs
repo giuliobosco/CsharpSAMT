@@ -8,6 +8,8 @@ using System.Web;
 namespace _101_Mercatino.Models {
     [Table("Mercatini")]
     public class Mercatino {
+
+        //[Key]
         [Key,Column("0")]
         public int Id { get; set; }
 
