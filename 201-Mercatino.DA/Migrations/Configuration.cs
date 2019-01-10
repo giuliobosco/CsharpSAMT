@@ -1,4 +1,5 @@
 using _101_Mercatino.Models;
+using _201_Mercatino.Models;
 
 namespace _201_Mercatino.Migrations
 {
@@ -35,6 +36,14 @@ namespace _201_Mercatino.Migrations
                 new Mercatino() { Luogo = "Strasburgo", Nazione = "Francia" },
                 new Mercatino() { Luogo = "Berlino", Nazione = "Germania" },
                 new Mercatino() { Luogo = "Milano", Nazione = "Italia" }
+            );
+
+            context.Nazioni.AddOrUpdate(
+                m => m.Nome,
+                new Nazione() { Nome = "Francia"},
+                new Nazione() { Nome = "Germania"},
+                new Nazione() { Nome = "Italia"},
+                new Nazione() { Nome = "Svizzera"}
             );
         }
     }
