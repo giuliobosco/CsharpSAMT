@@ -10,13 +10,13 @@ namespace _101_Mercatino.Models {
     public class Mercatino {
 
         //[Key]
-        [Key,Column("0")]
+        [Key,Column("Id")]
         public int Id { get; set; }
 
-        [Column("1")]
+        [Column("Luogo")]
         public string Luogo { get; set; }
 
-        [Column("2")]
+        [Column("Nazione")]
         public string Nazione { get; set; }
         
         //[Column("3")]
