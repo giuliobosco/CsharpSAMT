@@ -1,4 +1,5 @@
 using _101_Mercatino.Models;
+using _201_Mercatino.Models;
 
 namespace _201_Mercatino {
     using System;
@@ -22,6 +23,7 @@ namespace _201_Mercatino {
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
 
         public virtual DbSet<Mercatino> Mercatini { get; set; }
+        public virtual DbSet<Nazione> Nazioni { get; set; }
     }
 
     //public class MyEntity

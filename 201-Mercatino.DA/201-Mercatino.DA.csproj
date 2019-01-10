@@ -53,6 +53,7 @@
     <Compile Include="MercatinoContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Mercatino.cs" />
+    <Compile Include="Models\Nazione.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

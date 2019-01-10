@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-RSI.DA", "09 RSI.DA\09-R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101 Mercatino", "101 Mercatino\101 Mercatino.csproj", "{2FC0B722-DE30-4C71-9320-64B37C44011A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "201-Mercatino", "201-Mercatino\201-Mercatino.csproj", "{66E17519-8F35-4DCC-8A25-A7AD9EBFC838}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "201-Mercatino.DA", "201-Mercatino.DA\201-Mercatino.DA.csproj", "{66E17519-8F35-4DCC-8A25-A7AD9EBFC838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
