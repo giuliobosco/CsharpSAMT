@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101 Mercatino", "101 Mercat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "201-Mercatino.DA", "201-Mercatino.DA\201-Mercatino.DA.csproj", "{66E17519-8F35-4DCC-8A25-A7AD9EBFC838}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "201-Mercatino.CLI", "201-Mercation.CLI\201-Mercatino.CLI.csproj", "{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,14 @@ Global
 		{66E17519-8F35-4DCC-8A25-A7AD9EBFC838}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66E17519-8F35-4DCC-8A25-A7AD9EBFC838}.Release|x86.ActiveCfg = Release|Any CPU
 		{66E17519-8F35-4DCC-8A25-A7AD9EBFC838}.Release|x86.Build.0 = Release|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{4CDACCE6-16F6-4FC5-BC2B-3D5B9A3700AF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
