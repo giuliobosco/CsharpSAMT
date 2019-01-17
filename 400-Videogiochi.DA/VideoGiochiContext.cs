@@ -1,3 +1,5 @@
+using _400_Videogiochi.DA.Model;
+
 namespace _400_Videogiochi.DA {
     using System;
     using System.Data.Entity;
@@ -18,6 +20,7 @@ namespace _400_Videogiochi.DA {
         // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
+        public virtual DbSet<VideoGioco> VideoGiochi { get; set; }
     }
 
     //public class MyEntity
