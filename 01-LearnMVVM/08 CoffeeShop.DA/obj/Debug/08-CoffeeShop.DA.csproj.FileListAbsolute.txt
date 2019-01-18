@@ -1,0 +1,6 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop.DA\bin\Debug\08 CoffeeShop.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop.DA\bin\Debug\08 CoffeeShop.DA.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop.DA\obj\Debug\08-CoffeeShop.DA.csprojResolveAssemblyReference.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop.DA\obj\Debug\08-CoffeeShop.DA.csproj.CoreCompileInputs.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop.DA\obj\Debug\08 CoffeeShop.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop.DA\obj\Debug\08 CoffeeShop.DA.pdb

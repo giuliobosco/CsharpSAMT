@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="_09_RSI.View.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_09_RSI.View"
+             DataContext="{Binding Source={StaticResource Locator}, Path=About}"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Text="Ciao" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBox>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <TextBox Text="{Binding Path=LegalCopyright, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=ProductVersion, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=Comments, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=CompanyName, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=FileDescription, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=FileName, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=FileVersion, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=Language, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=LegalTrademarks, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=OriginalFilename, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=ProductMajorPart, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=ProductMinorPart, Mode=OneWay}"></TextBox>
+            <TextBox Text="{Binding Path=ProductName, Mode=OneWay}"></TextBox>
+            <Button Content="Home" Command="{Binding HomePageCommand}"></Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

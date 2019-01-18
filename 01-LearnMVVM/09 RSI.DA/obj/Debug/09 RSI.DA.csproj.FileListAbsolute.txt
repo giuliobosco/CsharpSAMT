@@ -1,0 +1,6 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI.DA\bin\Debug\09 RSI.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI.DA\bin\Debug\09 RSI.DA.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI.DA\obj\Debug\09 RSI.DA.csprojResolveAssemblyReference.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI.DA\obj\Debug\09 RSI.DA.csproj.CoreCompileInputs.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI.DA\obj\Debug\09 RSI.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI.DA\obj\Debug\09 RSI.DA.pdb

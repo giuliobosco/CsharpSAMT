@@ -1,0 +1,24 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\bin\Debug\08 CoffeeShop.exe.config
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\bin\Debug\08 CoffeeShop.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\bin\Debug\08 CoffeeShop.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\bin\Debug\08 CoffeeShop.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\bin\Debug\08 CoffeeShop.DA.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08-CoffeeShop.WPF.csprojResolveAssemblyReference.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\MainWindow.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\View\AboutView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\View\CoffeeListView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\View\MainView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\App.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08 CoffeeShop_MarkupCompile.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08 CoffeeShop_MarkupCompile.lref
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\MainWindow.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\View\AboutView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\View\CoffeeListView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\View\MainView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08 CoffeeShop.g.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\_08_CoffeeShop.Properties.Resources.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08-CoffeeShop.WPF.csproj.GenerateResource.Cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08-CoffeeShop.WPF.csproj.CoreCompileInputs.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08 CoffeeShop.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\08 CoffeeShop\obj\Debug\08 CoffeeShop.pdb

@@ -1,0 +1,7 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\03-Tariffa.csprojResolveAssemblyReference.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\MainWindow.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\View\MainView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\App.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\03 Tariffa_MarkupCompile.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\03 Tariffa\obj\Debug\03 Tariffa_MarkupCompile.lref

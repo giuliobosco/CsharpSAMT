@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="_08_CoffeeShop.View.CoffeeListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_08_CoffeeShop.View"
+             xmlns:viewmodel="clr-namespace:_08_CoffeeShop.ViewModel"
+             xmlns:helper="clr-namespace:_08_CoffeeShop.Helper"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <viewmodel:CoffeeListViewModel></viewmodel:CoffeeListViewModel>
+    </UserControl.DataContext>
+
+    <UserControl.Resources>
+        <helper:CoffeeToImageConverter x:Key="CoffeeToImageConverter"></helper:CoffeeToImageConverter>
+        <DataTemplate x:Key="CoffeeTemplate">
+            <Grid ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="300"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Row="0"
+                       Grid.RowSpan="3"
+                       Grid.Column="0"
+                       Source="{Binding Path=CoffeeId, Converter={StaticResource CoffeeToImageConverter}}">
+                </Image>
+
+                <Label Grid.Row="0"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="2"
+                       Content="{Binding Path=Name}"/>
+
+                <StackPanel Grid.Row="1"
+                            Grid.Column="1"
+                            Orientation="Horizontal">
+                    <Label Content="Stock:"/>
+                    <Label Content="{Binding Path=Stock}"/>
+                </StackPanel>
+
+                <Label Grid.Row="1"
+                       Grid.Column="2"
+                       Content="{Binding Path=Price}"/>
+
+                <Button Grid.Row="2" 
+                        Grid.Column="2"
+                        Content="Details"/>
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>  
+
+        <ListBox Grid.Row="0" 
+                 ItemsSource="{Binding Path=Coffees}"
+                 ItemTemplate="{StaticResource CoffeeTemplate}"/>
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Path=Coffees}"/>
+    </Grid>
+</UserControl>

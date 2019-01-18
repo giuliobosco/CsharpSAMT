@@ -1,0 +1,30 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\_09_RSI.exe.config
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\_09_RSI.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\_09_RSI.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\09 RSI.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\Microsoft.Expression.Interactions.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\System.Windows.Interactivity.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\09 RSI.DA.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\Microsoft.Expression.Interactions.xml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\bin\Debug\System.Windows.Interactivity.xml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\09-RSI.WPF.csprojResolveAssemblyReference.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\MainWindow.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\View\AboutView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\View\FilmListView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\View\MainView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\App.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\_09_RSI_MarkupCompile.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\_09_RSI_MarkupCompile.lref
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\App.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\MainWindow.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\View\AboutView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\View\FilmListView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\View\MainView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\_09_RSI.g.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\_09_RSI.Properties.Resources.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\09-RSI.WPF.csproj.GenerateResource.Cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\09-RSI.WPF.csproj.CoreCompileInputs.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\_09_RSI.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\09 RSI\obj\Debug\_09_RSI.pdb

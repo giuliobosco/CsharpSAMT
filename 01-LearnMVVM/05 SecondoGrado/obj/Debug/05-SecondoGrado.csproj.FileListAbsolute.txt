@@ -1,0 +1,19 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\bin\Debug\05 SecondoGrado.exe.config
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\bin\Debug\05 SecondoGrado.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\bin\Debug\05 SecondoGrado.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\MainWindow.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\View\EquationView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\View\MainView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\App.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05 SecondoGrado_MarkupCompile.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05 SecondoGrado_MarkupCompile.lref
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\MainWindow.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\View\EquationView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\View\MainView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05 SecondoGrado.g.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\_05_SecondoGrado.Properties.Resources.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05-SecondoGrado.csproj.GenerateResource.Cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05-SecondoGrado.csproj.CoreCompileInputs.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05 SecondoGrado.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05 SecondoGrado\obj\Debug\05 SecondoGrado.pdb

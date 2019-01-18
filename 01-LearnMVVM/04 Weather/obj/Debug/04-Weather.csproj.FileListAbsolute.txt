@@ -1,0 +1,19 @@
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\bin\Debug\04 Weather.exe.config
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\bin\Debug\04 Weather.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\bin\Debug\04 Weather.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\MainWindow.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\View\MainView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\View\OwmView.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\App.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04 Weather_MarkupCompile.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04 Weather_MarkupCompile.lref
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\MainWindow.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\View\MainView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\View\OwmView.baml
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04 Weather.g.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\_04_Weather.Properties.Resources.resources
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04-Weather.csproj.GenerateResource.Cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04-Weather.csproj.CoreCompileInputs.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04 Weather.exe
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\04 Weather\obj\Debug\04 Weather.pdb
