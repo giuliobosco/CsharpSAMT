@@ -30,11 +30,18 @@ namespace _400_Videogiochi.DA.Migrations
             //    );
             //
 
+            context.Tipi.AddOrUpdate(t => t.Nome,
+                new Tipo() {Nome = "Solitario"},
+                new Tipo() {Nome = "RPG"},
+                new Tipo() {Nome = "FPS"},
+                new Tipo() {Nome = "BattleRoyale"},
+                new Tipo() {Nome = "Strategia"});
+            /*
             context.VideoGiochi.AddOrUpdate(
                 m => m.Nome,
                 new VideoGioco() {Nome = "CounterStrike"},
                 new VideoGioco() {Nome = "Fortnite"}
-                );
+                );*/
         }
     }
 }
