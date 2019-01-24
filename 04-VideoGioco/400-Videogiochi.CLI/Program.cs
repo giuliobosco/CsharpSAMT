@@ -9,12 +9,12 @@ namespace _400_Videogiochi.CLI {
     class Program {
         static void Main(string [] args) {
             VideoGiochiContext ctx = new VideoGiochiContext();
+            
+            var tipi = from t in ctx.Tipi
+                orderby t.Nome
+                select t;
 
-            var dati = from vg in ctx.VideoGiochi
-                orderby vg.Nome
-                select vg;
-
-            foreach (var item in dati) {
+            foreach (var item in tipi) {
                 Console.WriteLine(item.Nome);
             }
 
