@@ -58,7 +58,11 @@ namespace _400_VideoGioco.MVC.Controllers
         // GET: Tipi/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var dati = from t in ctx.Tipi
+                where t.Id = id
+                select t;
+
+            return View(dati.FirstOrDefault());
         }
 
         // POST: Tipi/Edit/5
