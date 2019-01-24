@@ -19,5 +19,7 @@ namespace _400_Videogiochi.DA.Model {
         public string Nome { get; set; }
 
         public int Record { get; set; }
+
+        public Tipo Tipo { get; set; }
     }
 }
