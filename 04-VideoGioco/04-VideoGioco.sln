@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "400-Videogiochi.DA", "400-Videogiochi.DA\400-Videogiochi.DA.csproj", "{C8F14CAE-4C39-41F3-9EB8-BDCFEF6C9774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "400-Videogiochi.CLI", "400-Videogiochi.CLI\400-Videogiochi.CLI.csproj", "{5501B4D1-3AC5-4DC8-99D5-4D4466132719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8F14CAE-4C39-41F3-9EB8-BDCFEF6C9774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F14CAE-4C39-41F3-9EB8-BDCFEF6C9774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F14CAE-4C39-41F3-9EB8-BDCFEF6C9774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F14CAE-4C39-41F3-9EB8-BDCFEF6C9774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5501B4D1-3AC5-4DC8-99D5-4D4466132719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5501B4D1-3AC5-4DC8-99D5-4D4466132719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5501B4D1-3AC5-4DC8-99D5-4D4466132719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5501B4D1-3AC5-4DC8-99D5-4D4466132719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4290277-9BBF-4476-B046-1920E4BDB814}
+	EndGlobalSection
+EndGlobal
