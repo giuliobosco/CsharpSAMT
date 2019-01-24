@@ -25,9 +25,12 @@ namespace _400_VideoGioco.MVC.Controllers
         }
 
         // GET: Tipi/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
+        public ActionResult Details(int id) {
+            var dati = from t in ctx.Tipi
+                where t.Id = id
+                select t;
+
+            return View(dati.FirstOrDefault());
         }
 
         // GET: Tipi/Create
