@@ -1,9 +1,11 @@
 ﻿using _400_Videogiochi.DA;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using _400_Videogiochi.DA.Model;
 
 namespace _400_VideoGioco.MVC.Controllers
 {
@@ -67,13 +69,18 @@ namespace _400_VideoGioco.MVC.Controllers
 
         // POST: Tipi/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(Tipo tipo)
         {
             try
             {
                 // TODO: Add update logic here
+                if (ModelState.IsValid) {
+                    ctx.Entry(tipo).State = EntityState.Modified;
+                    ctx.SaveChanges();
+                    return RedirectToAction("Index");
+                }
 
-                return RedirectToAction("Index");
+                return View(tipo);
             }
             catch
             {
