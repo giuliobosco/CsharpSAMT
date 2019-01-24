@@ -10,6 +10,10 @@ namespace _400_VideoGioco.MVC.Controllers
     public class TipiController : Controller {
 
         private VideoGiochiContext ctx;
+
+        public TipiController() {
+            ctx = new VideoGiochiContext();
+        }
         // GET: Tipi
         public ActionResult Index()
         {
