@@ -21,6 +21,8 @@ namespace _400_Videogiochi.DA {
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
         public virtual DbSet<VideoGioco> VideoGiochi { get; set; }
+
+        public virtual DbSet<Tipo> Tipi { get; set; }
     }
 
     //public class MyEntity
