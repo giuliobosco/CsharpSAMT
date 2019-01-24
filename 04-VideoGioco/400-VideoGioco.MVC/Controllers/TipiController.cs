@@ -1,3 +1,4 @@
+﻿using _400_Videogiochi.DA;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +9,15 @@ namespace _400_VideoGioco.MVC.Controllers
 {
     public class TipiController : Controller {
 
+        private VideoGiochiContext ctx;
         // GET: Tipi
         public ActionResult Index()
         {
-            return View();
+            var tipi = from t in ctx.Tipi
+                orderby t.Nome
+                select t;
+
+            return View(tipi);
         }
 
         // GET: Tipi/Details/5
