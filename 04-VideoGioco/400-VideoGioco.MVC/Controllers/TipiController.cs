@@ -101,12 +101,13 @@ namespace _400_VideoGioco.MVC.Controllers
 
         // POST: Tipi/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(Tipo tipo)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                ctx.Entry(tipo).State = EntityState.Deleted;
+                ctx.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
