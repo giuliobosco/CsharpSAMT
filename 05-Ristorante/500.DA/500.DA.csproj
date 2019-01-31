@@ -64,7 +64,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\CarteDiCredito.cs" />
     <Compile Include="Model\Cucina.cs" />
