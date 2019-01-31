@@ -74,13 +74,17 @@ namespace _400_VideoGioco.MVC.Controllers
             try
             {
                 // TODO: Add update logic here
-                if (ModelState.IsValid) {
-                    ctx.Entry(tipo).State = EntityState.Modified;
-                    ctx.SaveChanges();
-                    return RedirectToAction("Index");
-                }
+                /*
+                var dati = (from t in ctx.Tipi
+                    where t.Id == tipo.Id
+                    select t).FirstOrDefault();
 
-                return View(tipo);
+                dati.Nome = tipo.Nome;
+                */
+                ctx.Entry(tipo).State = EntityState.Modified;
+                ctx.SaveChanges();
+                return RedirectToAction("Index");
+               
             }
             catch
             {
