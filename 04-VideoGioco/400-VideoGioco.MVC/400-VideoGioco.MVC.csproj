@@ -195,6 +195,7 @@
     <Content Include="Views\Tipi\Index.cshtml" />
     <Content Include="Views\Tipi\Details.cshtml" />
     <Content Include="Views\Tipi\Edit.cshtml" />
+    <Content Include="Views\Tipi\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
