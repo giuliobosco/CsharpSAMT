@@ -43,12 +43,13 @@ namespace _400_VideoGioco.MVC.Controllers
 
         // POST: Tipi/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Tipo tipo)
         {
             try
             {
                 // TODO: Add insert logic here
-
+                ctx.Entry(tipo).State = EntityState.Added;
+                ctx.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
