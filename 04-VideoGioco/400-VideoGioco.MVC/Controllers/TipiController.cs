@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using _400_Videogiochi.DA.Model;
@@ -59,11 +60,19 @@ namespace _400_VideoGioco.MVC.Controllers
         }
 
         // GET: Tipi/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int? id)
         {
+            if (id is null) {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
             var dati = from t in ctx.Tipi
                 where t.Id == id
                 select t;
+
+            if (dati.Count() == 0) {
+                return HttpNotFound();
+            }
 
             return View(dati.FirstOrDefault());
         }
