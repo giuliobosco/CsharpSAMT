@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LaureeModel.cs" />
+    <Compile Include="LaureeContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Area.cs" />
     <Compile Include="Model\Formatore.cs" />

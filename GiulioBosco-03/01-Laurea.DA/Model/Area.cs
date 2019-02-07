@@ -10,7 +10,7 @@ namespace _01_Laurea.DA.Model {
     [Table("Aree")]
     public class Area {
         [Key]
-        public int Id;
-        public string Nome;
+        public int Id { get; set; }
+        public string Nome { get; set; }
     }
 }

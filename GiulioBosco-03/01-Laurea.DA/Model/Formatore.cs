@@ -10,9 +10,9 @@ namespace _01_Laurea.DA.Model {
     [Table("Formatori")]
     public class Formatore {
         [Key]
-        public int Id;
-        public string Cognome;
-        public string Ente;
-        public bool Interno;
+        public int Id { get; set; }
+        public string Cognome { get; set; }
+        public string Ente { get; set; }
+        public bool Interno { get; set; }
     }
 }

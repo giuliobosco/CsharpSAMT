@@ -10,12 +10,12 @@ namespace _01_Laurea.DA.Model {
     [Table("Tesi")]
     public class Tesi {
         [Key]
-        public int Id;
-        public string Titolo;
-        public List<Studente> Studenti;
-        public Formatore Relatore;
-        public Formatore Perito;
-        public Tipo Tipo;
-        public Area Area;
+        public int Id { get; set; }
+        public string Titolo { get; set; }
+        public List<Studente> Studenti { get; set; }
+        public Formatore Relatore { get; set; }
+        public Formatore Perito { get; set; }
+        public Tipo Tipo { get; set; }
+        public Area Area { get; set; }
     }
 }

@@ -10,8 +10,8 @@ namespace _01_Laurea.DA.Model {
     [Table("Studenti")]
     public class Studente {
         [Key]
-        public int Id;
-        public string Nome;
-        public string Cognome;
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Cognome { get; set; }
     }
 }
