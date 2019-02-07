@@ -7,14 +7,14 @@ namespace _01_Laurea.DA.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<_01_Laurea.DA.LaureeModel>
+    internal sealed class Configuration : DbMigrationsConfiguration<_01_Laurea.DA.LaureeContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(_01_Laurea.DA.LaureeModel context)
+        protected override void Seed(_01_Laurea.DA.LaureeContext context)
         {
             //  This method will be called after migrating to the latest version.
 
