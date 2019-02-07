@@ -1,3 +1,5 @@
+using _01_Laurea.DA.Model;
+
 namespace _01_Laurea.DA {
     using System;
     using System.Data.Entity;
@@ -18,6 +20,10 @@ namespace _01_Laurea.DA {
         // on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
+        public virtual DbSet<Area> Aree { get; set; }
+        public virtual DbSet<Formatore> Formatori { get; set; }
+        public virtual DbSet<Studente> Studenti { get; set; }
+        public virtual DbSet<Tesi> Tesi { get; set; }
     }
 
     //public class MyEntity
