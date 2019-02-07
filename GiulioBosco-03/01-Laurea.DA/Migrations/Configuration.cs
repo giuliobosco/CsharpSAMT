@@ -28,6 +28,12 @@ namespace _01_Laurea.DA.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            context.Aree.AddOrUpdate(
+                a => a.Nome,
+                new Area { Nome = "reti"},
+                new Area { Nome = "web"},
+                new Area { Nome = "programmazione"}
+                );
         }
     }
 }
