@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LaureeModel.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Area.cs" />
     <Compile Include="Model\Formatore.cs" />
     <Compile Include="Model\Studente.cs" />
