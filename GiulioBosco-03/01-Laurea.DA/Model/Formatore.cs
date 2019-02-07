@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _01_Laurea.DA.Model {
     [Table("Formatori")]
-    class Formatore {
+    public class Formatore {
         [Key]
         public int Id;
         public string Cognome;

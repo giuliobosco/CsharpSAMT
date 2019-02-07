@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _01_Laurea.DA.Model {
     [Table("Aree")]
-    class Area {
+    public class Area {
         [Key]
         public int Id;
         public string Nome;

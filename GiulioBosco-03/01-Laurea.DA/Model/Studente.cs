@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _01_Laurea.DA.Model {
     [Table("Studenti")]
-    class Studente {
+    public class Studente {
         [Key]
         public int Id;
         public string Nome;
