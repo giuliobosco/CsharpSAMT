@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace _03_Laurea.DA.Model {
+    [Table("Formatori")]
     public class Formatore {
         public int Id { get; set; }
 
