@@ -1,3 +1,5 @@
+using _03_Laurea.DA.Model;
+
 namespace _03_Laurea.DA.Migrations
 {
     using System;
@@ -9,7 +11,8 @@ namespace _03_Laurea.DA.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(_03_Laurea.DA.LaureaContext context)
@@ -26,6 +29,10 @@ namespace _03_Laurea.DA.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+            context.Aree.AddOrUpdate(a => a.Nome,
+                new Area() {Nome = "Reti"},
+                new Area() {Nome = "Programmazione"},
+                new Area() {Nome = "Web"});
         }
     }
 }
