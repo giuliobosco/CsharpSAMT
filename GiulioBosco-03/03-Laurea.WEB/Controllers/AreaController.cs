@@ -80,7 +80,7 @@ namespace _03_Laurea.WEB.Controllers
             if (risultati is null) {
                 return HttpNotFound();
             }
-            return View();
+            return View(risultati);
         }
 
         // POST: Area/Edit/5
@@ -115,7 +115,7 @@ namespace _03_Laurea.WEB.Controllers
                 return HttpNotFound();
             }
 
-            return View();
+            return View(risultati);
         }
 
         // POST: Area/Delete/5
