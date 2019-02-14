@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using _03_Laurea.DA;
@@ -23,9 +24,21 @@ namespace _03_Laurea.WEB.Controllers
         }
 
         // GET: Area/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
-            return View();
+            if (id is null) {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            var risultati = from a in ctx.Aree
+                where a.Id == id
+                select a;
+
+            if (risultati is null) {
+                return HttpNotFound();
+            }
+
+            return View(risultati);
         }
 
         // GET: Area/Create
