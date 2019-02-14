@@ -120,12 +120,13 @@ namespace _03_Laurea.WEB.Controllers
 
         // POST: Area/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(Area area)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                ctx.Entry(area).State = EntityState.Deleted;
+                ctx.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
