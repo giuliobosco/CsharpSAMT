@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using _03_Laurea.DA;
+using _03_Laurea.DA.Model;
 
 namespace _03_Laurea.WEB.Controllers
 {
@@ -49,12 +51,13 @@ namespace _03_Laurea.WEB.Controllers
 
         // POST: Area/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Area area)
         {
             try
             {
                 // TODO: Add insert logic here
-
+                ctx.Entry(area).State = EntityState.Added;
+                ctx.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
