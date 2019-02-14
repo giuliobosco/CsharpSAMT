@@ -32,9 +32,9 @@ namespace _03_Laurea.WEB.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var risultati = from a in ctx.Aree
+            var risultati = (from a in ctx.Aree
                 where a.Id == id
-                select a;
+                select a).FirstOrDefault();
 
             if (risultati is null) {
                 return HttpNotFound();
@@ -67,19 +67,31 @@ namespace _03_Laurea.WEB.Controllers
         }
 
         // GET: Area/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(int? id)
         {
+            if (id is null) {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            var risultati = (from a in ctx.Aree
+                where a.Id == id
+                select a).FirstOrDefault();
+
+            if (risultati is null) {
+                return HttpNotFound();
+            }
             return View();
         }
 
         // POST: Area/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(Area area)
         {
             try
             {
                 // TODO: Add update logic here
-
+                ctx.Entry(area).State = EntityState.Modified;
+                ctx.SaveChanges();
                 return RedirectToAction("Index");
             }
             catch
