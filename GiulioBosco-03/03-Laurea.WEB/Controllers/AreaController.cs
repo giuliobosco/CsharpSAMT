@@ -101,8 +101,20 @@ namespace _03_Laurea.WEB.Controllers
         }
 
         // GET: Area/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int? id)
         {
+            if (id is null) {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            var risultati = (from a in ctx.Aree
+                where a.Id == id
+                select a).FirstOrDefault();
+
+            if (risultati is null) {
+                return HttpNotFound();
+            }
+
             return View();
         }
 
