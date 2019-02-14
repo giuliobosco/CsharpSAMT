@@ -15,9 +15,11 @@ namespace _03_Laurea.WEB.Controllers
         }
 
         // GET: Area
-        public ActionResult Index()
-        {
-            return View();
+        public ActionResult Index() {
+            var risultati = from a in ctx.Aree
+                orderby a.Nome
+                select a;
+            return View(risultati);
         }
 
         // GET: Area/Details/5

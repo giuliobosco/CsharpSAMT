@@ -5,7 +5,6 @@ Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\b
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\bin\Debug\EntityFramework.SqlServer.dll
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\bin\Debug\EntityFramework.xml
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\bin\Debug\EntityFramework.SqlServer.xml
-Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\obj\Debug\03-Laurea.DA.csprojResolveAssemblyReference.cache
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\obj\Debug\03-Laurea.DA.csproj.CoreCompileInputs.cache
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\obj\Debug\03-Laurea.DA.dll
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\GiulioBosco-03\03-Laurea.DA\obj\Debug\03-Laurea.DA.pdb
