@@ -7,22 +7,26 @@ using System.Web;
 using System.Web.Mvc;
 using _03_Laurea.DA;
 using _03_Laurea.DA.Model;
+using _03_Laurea.DA.Services;
 
 namespace _03_Laurea.WEB.Controllers
 {
     public class AreaController : Controller {
-        private LaureaContext ctx;
+        //private LaureaContext ctx;
+        private AreaRepository ctx;
 
         public AreaController() {
-            ctx = new LaureaContext();
+            ctx = new AreaRepository();
         }
 
         // GET: Area
         public ActionResult Index() {
-            var risultati = from a in ctx.Aree
-                orderby a.Nome
-                select a;
-            return View(risultati);
+            //var risultati = from a in ctx.Aree
+            //    orderby a.Nome
+            //    select a;
+            
+            //return View(risultati);
+            return View(ctx.Get());
         }
 
         // GET: Area/Details/5
@@ -32,9 +36,11 @@ namespace _03_Laurea.WEB.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var risultati = (from a in ctx.Aree
-                where a.Id == id
-                select a).FirstOrDefault();
+            //var risultati = (from a in ctx.Aree
+            //    where a.Id == id
+            //    select a).FirstOrDefault();
+
+            var risultati = ctx.Get((int)id);
 
             if (risultati is null) {
                 return HttpNotFound();
@@ -56,8 +62,9 @@ namespace _03_Laurea.WEB.Controllers
             try
             {
                 // TODO: Add insert logic here
-                ctx.Entry(area).State = EntityState.Added;
-                ctx.SaveChanges();
+                //ctx.Entry(area).State = EntityState.Added;
+                //ctx.SaveChanges();
+                ctx.Insert(area);
                 return RedirectToAction("Index");
             }
             catch
@@ -73,9 +80,11 @@ namespace _03_Laurea.WEB.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var risultati = (from a in ctx.Aree
-                where a.Id == id
-                select a).FirstOrDefault();
+            //var risultati = (from a in ctx.Aree
+            //    where a.Id == id
+            //    select a).FirstOrDefault();
+
+            var risultati = ctx.Get((int) id);
 
             if (risultati is null) {
                 return HttpNotFound();
@@ -90,8 +99,9 @@ namespace _03_Laurea.WEB.Controllers
             try
             {
                 // TODO: Add update logic here
-                ctx.Entry(area).State = EntityState.Modified;
-                ctx.SaveChanges();
+                //ctx.Entry(area).State = EntityState.Modified;
+                //ctx.SaveChanges();
+                ctx.Update(area);
                 return RedirectToAction("Index");
             }
             catch
@@ -107,10 +117,10 @@ namespace _03_Laurea.WEB.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            var risultati = (from a in ctx.Aree
-                where a.Id == id
-                select a).FirstOrDefault();
-
+            //var risultati = (from a in ctx.Aree
+            //    where a.Id == id
+            //    select a).FirstOrDefault();
+            var risultati = ctx.Get((int) id);
             if (risultati is null) {
                 return HttpNotFound();
             }
@@ -125,8 +135,9 @@ namespace _03_Laurea.WEB.Controllers
             try
             {
                 // TODO: Add delete logic here
-                ctx.Entry(area).State = EntityState.Deleted;
-                ctx.SaveChanges();
+                //ctx.Entry(area).State = EntityState.Deleted;
+                //ctx.SaveChanges();
+                ctx.Delete(area);
                 return RedirectToAction("Index");
             }
             catch
