@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using _03_Laurea.DA.Model;
 
 namespace _03_Laurea.DA.Services {
-    class AreaRepository : IDataRepository<Area> {
+    public class AreaRepository : IDataRepository<Area> {
         private LaureaContext ctx;
 
         public AreaRepository() {
