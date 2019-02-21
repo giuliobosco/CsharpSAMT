@@ -12,3 +12,6 @@ Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\obj\Debug\netcoreapp2.1\Torta.WEB.RazorAssemblyInfo.cache
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\obj\Debug\netcoreapp2.1\Torta.WEB.RazorAssemblyInfo.cs
 Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\obj\Debug\netcoreapp2.1\Torta.WEB.RazorTargetAssemblyInfo.cache
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\bin\Debug\netcoreapp2.1\Torta.DA.dll
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\bin\Debug\netcoreapp2.1\Torta.DA.pdb
+Z:\giuliobosco On My Mac\drive\progetti\CsharpSAMT\05-TortaDellaNonna\Torta.WEB\obj\Debug\netcoreapp2.1\Torta.WEB.csproj.CopyComplete
