@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Torta.DA.Services;
 
 namespace Torta5.Web {
     public class Startup {
@@ -26,6 +27,7 @@ namespace Torta5.Web {
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddTransient<ITortaRepository, MockTortaRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
