@@ -4333,6 +4333,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Torta.DA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Torta.DA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Torta.DA.dll": {}
+        }
       }
     }
   },
@@ -11785,13 +11795,19 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Torta.DA/1.0.0": {
+      "type": "project",
+      "path": "../Torta.DA/Torta.DA.csproj",
+      "msbuildProject": "../Torta.DA/Torta.DA.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Torta.DA >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11823,7 +11839,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "Z:\\giuliobosco On My Mac\\drive\\progetti\\CsharpSAMT\\05-TortaDellaNonna\\Torta.DA\\Torta.DA.csproj": {
+              "projectPath": "Z:\\giuliobosco On My Mac\\drive\\progetti\\CsharpSAMT\\05-TortaDellaNonna\\Torta.DA\\Torta.DA.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
