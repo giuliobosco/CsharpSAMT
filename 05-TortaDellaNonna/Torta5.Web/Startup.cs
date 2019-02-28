@@ -27,7 +27,7 @@ namespace Torta5.Web {
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddTransient<ITortaRepository, MockTortaRepository>();
+            services.AddTransient<ITortaRepository, SQLServerTortaRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
