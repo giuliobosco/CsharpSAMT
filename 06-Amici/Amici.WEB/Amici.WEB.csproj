@@ -15,4 +15,8 @@
     <Folder Include="Views\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Amici.DA\Amici.DA.csproj" />
+  </ItemGroup>
+
 </Project>
