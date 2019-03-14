@@ -12,6 +12,10 @@ namespace Amici.WEB {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services) {
+            // registriamo i servizi del framework
+            services.AddMvc();
+
+            // registriamo i nostri servizi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -20,9 +24,18 @@ namespace Amici.WEB {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) => {
+            /*app.Run(async (context) => {
                 await context.Response.WriteAsync("Hello World!");
-            });
+            });*/
+            app.UseStatusCodePages();
+            app.UseStaticFiles();
+            //app.UseMvcWithDefaultRoute();         // use for start at HomeController/index()
+            app.UseMvc(
+                routes => routes.MapRoute(
+                    name: "default",
+                    template: "{controller-Amico}/{action-Index}/{id?}"
+                    )
+                );
         }
     }
 }
