@@ -35,7 +35,7 @@ namespace Amici.WEB {
             app.UseMvc(
                 routes => routes.MapRoute(
                     name: "default",
-                    template: "{controller-Amico}/{action-Index}/{id?}"
+                    template: "{controller=Amico}/{action=Index}/{id?}"
                     )
                 );
         }
