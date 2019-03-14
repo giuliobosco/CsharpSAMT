@@ -8,10 +8,10 @@ namespace Amici.DA.Services {
 
         IEnumerable<T> Get();
 
-        void Insert(T element);
+        T Insert(T entity);
 
-        void Delete(T element);
+        void Delete(T entity);
 
-        void Update(T element);
+        void Update(T entity);
     }
 }
