@@ -1,4 +1,6 @@
-﻿@foreach (var amico in Model) {
+﻿@model IEnumerable<Amici.DA.Models.Amico>
+
+@foreach (var amico in Model) {
     <div>
         <h3>@amico.Nome</h3>
         <h3>@amico.Cognome</h3>
