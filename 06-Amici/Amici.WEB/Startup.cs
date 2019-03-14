@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Amici.DA.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +17,7 @@ namespace Amici.WEB {
             services.AddMvc();
 
             // registriamo i nostri servizi
+            services.AddTransient<IAmicoRepository, MockAmicoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
