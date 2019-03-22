@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
 namespace _05_TortaDellaNonna.DA.Services {
     public interface IDataRepository<T> {
         T Get(int id);
