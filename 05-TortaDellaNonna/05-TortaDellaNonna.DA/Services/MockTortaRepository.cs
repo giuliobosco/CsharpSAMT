@@ -36,22 +36,23 @@ namespace _05_TortaDellaNonna.DA.Services {
             return torte.FirstOrDefault(torte => torte.Id == id);
         }
 
-        public IEquatable<Torta> Get() {
+        public IEnumerable<Torta> Get() {
             return torte;
         }
 
         public Torta Insert(Torta entity) {
             int id = torte.Max(torte => torte.Id) + 1;
             entity.Id = id;
-            return torte.Add(entity);
+            torte.Add(entity);
+            return entity;
         }
 
         public void Delete(Torta entity) {
-            torte.remove(entity);
+            torte.Remove(entity);
         }
 
         public void Update(Torta entity) {
-            Torta t = entity.Id;
+            Torta t = torte.FirstOrDefault(torte => torte.Id == entity.Id);
 
             t.Nome = entity.Nome;
             t.Descrizione = entity.Descrizione;
