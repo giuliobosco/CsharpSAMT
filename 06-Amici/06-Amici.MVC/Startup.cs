@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using _06_Amici.DA.Services;
 
 namespace _06_Amici.MVC {
     public class Startup {
@@ -28,6 +29,7 @@ namespace _06_Amici.MVC {
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<IAmicoRepository, MockAmicoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +49,7 @@ namespace _06_Amici.MVC {
             app.UseMvc(routes => {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Amici}/{action=Index}/{id?}");
             });
         }
     }
