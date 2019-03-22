@@ -44,7 +44,11 @@ namespace _06_Amici.DA.Services {
         }
 
         public void Update(Amico entity) {
-            throw new NotImplementedException();
+            Amico a = Get(entity.Id);
+            a.Nome = entity.Nome;
+            a.Cognome = entity.Cognome;
+            a.Luogo = entity.Luogo;
+            a.Foto = entity.Foto;
         }
     }
 }
