@@ -17,7 +17,7 @@ namespace _06_Amici.MVC.Controllers {
             ctx = new MockAmicoRepository();
         }
 
-        // GET: /<controller>/
+        // GET: /Amici/
         public IActionResult Index() {
             return View(ctx.Get());
         }
