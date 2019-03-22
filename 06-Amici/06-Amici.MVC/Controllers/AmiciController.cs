@@ -38,5 +38,14 @@ namespace _06_Amici.MVC.Controllers {
                 return View();
             }
         }
+
+        // GET: Amici/Details/5
+        public ActionResult Details(int id) {
+            var data = from a in ctx.Get()
+                       where a.Id == id
+                       select a;
+
+            return View(data.FirstOrDefault());
+        }
     }
 }

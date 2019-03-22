@@ -1,0 +1,48 @@
+﻿@model _06_Amici.DA.Model.Amico
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Amico</h4>
+
+    <hr />
+    <dl>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cognome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cognome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Luogo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Luogo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Foto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Foto)
+        </dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new {id = Model.Id})
+    |
+    @Html.ActionLink("Back to list", "Index")
+</p>
