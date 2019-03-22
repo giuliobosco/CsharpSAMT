@@ -63,5 +63,26 @@ namespace _06_Amici.MVC.Controllers {
                 return View(entity);
             }
         }
+
+        // GET: Amcii/Edit/5
+        public ActionResult Edit(int id) {
+            var data = from a in ctx.Get()
+                       where a.Id == id
+                       select a;
+
+            return View(data.FirstOrDefault());
+        }
+
+        // POST: Amici/Edit/5
+        [HttpPost]
+        public ActionResult Edit(Amico entity) {
+            try {
+                ctx.Update(entity);
+                return RedirectToAction("Index");
+
+            } catch {
+                return View(entity);
+            }
+        }
     }
 }
