@@ -47,5 +47,21 @@ namespace _06_Amici.MVC.Controllers {
 
             return View(data.FirstOrDefault());
         }
+
+        // GET: Amici/Delete/id
+        public ActionResult Delete(int id) {
+            return View(ctx.Get(id));
+        }
+
+        // POST: Tipi/Delete/5
+        [HttpPost]
+        public ActionResult Delete(Amico entity) {
+            try {
+                ctx.Delete(entity);
+                return RedirectToAction("Index");
+            } catch {
+                return View(entity);
+            }
+        }
     }
 }
