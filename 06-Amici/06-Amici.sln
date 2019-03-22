@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Amici.DA", "06-Amici.DA\06-Amici.DA.csproj", "{AD72D135-EF43-4D20-B6A6-7881F548A0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Amici.CLI", "06-Amici.CLI\06-Amici.CLI.csproj", "{F8A75DB8-1D30-4B9F-ACCE-1BAA3A42A336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Amici.MVC", "06-Amici.MVC\06-Amici.MVC.csproj", "{95E751EB-C9DF-4721-A2A2-3436A340D9B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD72D135-EF43-4D20-B6A6-7881F548A0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD72D135-EF43-4D20-B6A6-7881F548A0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD72D135-EF43-4D20-B6A6-7881F548A0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD72D135-EF43-4D20-B6A6-7881F548A0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A75DB8-1D30-4B9F-ACCE-1BAA3A42A336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A75DB8-1D30-4B9F-ACCE-1BAA3A42A336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A75DB8-1D30-4B9F-ACCE-1BAA3A42A336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A75DB8-1D30-4B9F-ACCE-1BAA3A42A336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E751EB-C9DF-4721-A2A2-3436A340D9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E751EB-C9DF-4721-A2A2-3436A340D9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E751EB-C9DF-4721-A2A2-3436A340D9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E751EB-C9DF-4721-A2A2-3436A340D9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
