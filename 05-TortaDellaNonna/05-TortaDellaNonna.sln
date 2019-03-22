@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-TortaDellaNonna.DA", "05-TortaDellaNonna.DA\05-TortaDellaNonna.DA.csproj", "{C6F92CF5-1E59-4AAF-8E7E-45CDAC21F0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6F92CF5-1E59-4AAF-8E7E-45CDAC21F0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F92CF5-1E59-4AAF-8E7E-45CDAC21F0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F92CF5-1E59-4AAF-8E7E-45CDAC21F0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F92CF5-1E59-4AAF-8E7E-45CDAC21F0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
