@@ -53,7 +53,7 @@ namespace _06_Amici.MVC.Controllers {
             return View(ctx.Get(id));
         }
 
-        // POST: Tipi/Delete/5
+        // POST: Amici/Delete/5
         [HttpPost]
         public ActionResult Delete(Amico entity) {
             try {
