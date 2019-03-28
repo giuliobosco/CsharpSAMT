@@ -1,6 +1,6 @@
 ﻿using System;
 using _06_Amici.DA.Services;
-using _06_Amici.DA.Model;
+using _06_Amici.DA.Models;
 
 namespace _06_Amici.CLI {
     class Program {

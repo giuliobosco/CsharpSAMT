@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using _06_Amici.DA.Model;
+using _06_Amici.DA.Models;
 
 namespace _06_Amici.DA.Services {
     public class MockAmicoRepository : IAmicoRepository {

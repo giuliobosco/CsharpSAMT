@@ -1,6 +1,5 @@
 ﻿using System;
-namespace _06_Amici.DA.Model
-{
+namespace _06_Amici.DA.Models{
     public class Amico
     {
         public int Id { get; set; }
