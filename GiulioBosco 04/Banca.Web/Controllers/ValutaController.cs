@@ -63,5 +63,23 @@ namespace Banca.Web.Controllers {
 			}
 		}
 
+		public ActionResult Delete(int id) {
+			var risultato = ctx.Get(id);
+
+			if (risultato is null) {
+				return NotFound(nameof(Index));
+			}
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Delete(Valuta dati) {
+			try {
+				ctx.Delete(dati);
+				return RedirectToAction(nameof(Index));
+			} catch {
+				return View();
+			}
+		}
 	}
 }
