@@ -1,0 +1,42 @@
+﻿@model Banca.DA.Models.Valuta
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Valuta</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Codice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Codice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Denominazione)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Denominazione)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cambio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cambio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Entrata)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Entrata)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

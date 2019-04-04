@@ -17,5 +17,15 @@ namespace Banca.Web.Controllers {
 			return View(ctx.Get());
 		}
 
+		public ActionResult Details(int id) {
+			var risultato = ctx.Get(id);
+
+			if (risultato is null) {
+				return NotFound();
+			}
+
+			return View(risultato);
+		}
+
 	}
 }
