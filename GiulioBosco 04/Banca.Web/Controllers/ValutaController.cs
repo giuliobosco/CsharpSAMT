@@ -42,5 +42,26 @@ namespace Banca.Web.Controllers {
 			}
 		}
 
+		public ActionResult Edit(int id) {
+			var risultato = ctx.Get(id);
+
+			if (risultato is null) {
+				return NotFound();
+			}
+
+			return View(risultato);
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Edit(Valuta dati) {
+			try {
+				ctx.Update(dati);
+				return RedirectToAction(nameof(Index));
+			} catch {
+				return View();
+			}
+		}
+
 	}
 }
