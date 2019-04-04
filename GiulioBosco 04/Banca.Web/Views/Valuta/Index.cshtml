@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Banca.DA.Models.Valuta>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Valuta Index</h2>
+
+<p>
+    <a asp-action="Create">Create New Valuta</a>
+</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Codice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Denominazione)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cambio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Entrata)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Denominazione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cambio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Entrata)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
