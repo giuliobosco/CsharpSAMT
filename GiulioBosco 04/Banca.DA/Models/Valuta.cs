@@ -8,10 +8,10 @@ namespace Banca.DA.Models {
 
         public string Codice { get; set; }
 
-        public string  denominazione { get; set; }
+        public string  Denominazione { get; set; }
 
-        public double entrata { get; set; }
+        public double Entrata { get; set; }
 
-        public double cambio { get; set; }
+        public double Cambio { get; set; }
     }
 }
