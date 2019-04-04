@@ -27,5 +27,20 @@ namespace Banca.Web.Controllers {
 			return View(risultato);
 		}
 
+		public Action Create() {
+			return View();
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Create(Valuta dati) {
+			try {
+				ctx.Insert(dati);
+				return RedirectToAction(nameof(Index));
+			} catch {
+				return View();
+			}
+		}
+
 	}
 }
