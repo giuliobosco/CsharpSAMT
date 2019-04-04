@@ -5,7 +5,7 @@ using System.Linq;
 using Banca.DA.Models;
 
 namespace Banca.DA.Services {
-    class MockBancaRepository : IValutaRepository {
+    public class MockBancaRepository : IValutaRepository {
         private List<Valuta> valute;
 
         public MockBancaRepository() {
