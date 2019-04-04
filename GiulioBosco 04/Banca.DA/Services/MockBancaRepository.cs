@@ -18,8 +18,8 @@ namespace Banca.DA.Services {
             valute = new List<Valuta>
             {
                 new Valuta {Id = 1, Codice = "EUR", Denominazione = "Euro", Entrata = 1000, Cambio = 1.1},
-                new Valuta {Id = 1, Codice = "USD", Denominazione = "Dollaria americani", Entrata = 500, Cambio = 1.01},
-                new Valuta {Id = 1, Codice = "BTC", Denominazione = "Sterlina inglese", Entrata = 10000, Cambio = 1.3}
+                new Valuta {Id = 2, Codice = "USD", Denominazione = "Dollaria americani", Entrata = 500, Cambio = 1.01},
+                new Valuta {Id = 3, Codice = "BTC", Denominazione = "Sterlina inglese", Entrata = 10000, Cambio = 1.3}
             };
         }
 
