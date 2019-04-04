@@ -27,7 +27,7 @@ namespace Banca.Web.Controllers {
 			return View(risultato);
 		}
 
-		public Action Create() {
+		public ActionResult Create() {
 			return View();
 		}
 
@@ -69,6 +69,8 @@ namespace Banca.Web.Controllers {
 			if (risultato is null) {
 				return NotFound(nameof(Index));
 			}
+
+			return View(risultato);
 		}
 
 		[HttpPost]
