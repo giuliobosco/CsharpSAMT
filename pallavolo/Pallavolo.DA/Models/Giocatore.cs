@@ -9,6 +9,6 @@ namespace Pallavolo.DA.Models {
 		
 		public DateTime Nascita { get; set; }
 		
-		public int numero { get; set; }
+		public int Numero { get; set; }
 	}
 }
