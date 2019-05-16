@@ -20,7 +20,7 @@ namespace Donatore.DA {
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
 			if (!optionsBuilder.IsConfigured) {
-				optionsBuilder.UseSqlite("DataSoure=./donatore.db");
+				optionsBuilder.UseSqlite("DataSource=./donatore.db");
 			}
 		}
 
