@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donatore.DA", "Donatore.DA\Donatore.DA.csproj", "{69842E85-04B7-4802-91B6-D6AFDA6EDBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69842E85-04B7-4802-91B6-D6AFDA6EDBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69842E85-04B7-4802-91B6-D6AFDA6EDBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69842E85-04B7-4802-91B6-D6AFDA6EDBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69842E85-04B7-4802-91B6-D6AFDA6EDBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
